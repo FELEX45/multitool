@@ -1,0 +1,115 @@
+
+body {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.radio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.RP-LINK {
+    opacity: 0;
+    display: none;
+    visibility: hidden;
+}
+
+.RP-SCRIPT {
+    position: relative;
+    width: 600px;
+}
+
+.api {
+    color:white;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 8px;
+}
+
+.ip {
+    color:white;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.yourip {
+    margin: 20px;
+    color:white;
+    font-size: 30px;
+}
+
+.activity-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    margin: 20px;
+    color: white;
+    font-size: 30px;
+    font-weight: 500;
+    border: 3px solid white;
+    border-radius: 8px;
+    padding: 20px;
+    background-color: seagreen;
+
+}
+
+.activity {
+    font-weight: 800;
+}
+
+.weather-container {
+    display: flex;
+    flex-direction: column;
+    background-color: lightslategray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    border: 3px solid white;
+    padding: 20px;
+    border-radius: 8px;
+}
+.weather {
+
+}
+
+.usd-container {
+
+    position: absolute;
+    bottom: 40px;
+    left: 20px;
+    color: ghostwhite;
+    font-weight: 900;
+    font-size: 30px;
+}
+
+.usd {
+
+}
+
+.crypt-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    position: absolute;
+    bottom: 50px;
+    right: 0;
+    color: ghostwhite;
+    font-weight: 900;
+    font-size: 30px;
+}
